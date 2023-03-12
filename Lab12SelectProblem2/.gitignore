@@ -15,7 +15,7 @@ node_modules
 *.iws
 .idea
 out
-generatedW
+generated
 MANIFEST.MF
 
 
