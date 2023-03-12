@@ -1,0 +1,16 @@
+<a href="/enroll-photoshoot/{{id}}">Enroll to photoshoot</a>
+
+<div class="form_div">
+  <table border="1">
+    <tr> <th>Id</th> <th>Price</th> <th>Date</th> <th>NoMaxClients</th> <th>Location</th><th>Clients Enrolled</th></tr>
+    <tr *ngFor="let photoshoot of photoshoots">
+      <td>{{photoshoot.id}}</td>
+      <td>{{photoshoot.price}}</td>
+      <td>{{photoshoot.date}}</td>
+      <td>{{photoshoot.noMaxClients}}</td>
+      <td>{{photoshoot.location.name}}</td>
+      <td>{{photoshoot.clients.length}}</td>
+    </tr>
+  </table>
+
+</div>

@@ -1,0 +1,18 @@
+<table border="1">
+  <tr>
+    <th>Id</th>
+    <th>Name</th> <th>EntranceFee</th> <th>Owner</th> <th>TimeLimit</th>
+    <th>Street</th> <th>StreetNumber</th> <th>City</th> <th>Country</th> <th>ZipCode</th> </tr>
+  <tr *ngFor="let location of locations">
+    <td>{{location.id}}</td>
+    <td>{{location.name}}</td>
+    <td>{{location.entranceFee}}</td>
+    <td>{{location.owner}}</td>
+    <td>{{location.timeLimit}}</td>
+    <td>{{location.address.street}}</td>
+    <td>{{location.address.number}}</td>
+    <td>{{location.address.city}}</td>
+    <td>{{location.address.country}}</td>
+    <td>{{location.address.zipCode}}</td>
+  </tr>
+</table>
