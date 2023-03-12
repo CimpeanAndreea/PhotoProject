@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="project.web.controller.ClientControllerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-05-25T09:49:14" hostname="DESKTOP-V3HV2R1" time="7.647">
+  <properties/>
+  <testcase name="updateClient" classname="project.web.controller.ClientControllerTest" time="7.171"/>
+  <testcase name="getClients" classname="project.web.controller.ClientControllerTest" time="0.473"/>
+  <system-out><![CDATA[2021-05-25T12:49:21,095 TRACE [Test worker]: ClientController                     - start update client=ClientDto(super=BaseDto(id=1), name=Ana, email=ana@gmail.com, phoneNumber=0987654321) 
+ClientDto(super=BaseDto(id=1), name=Ana, email=ana@gmail.com, phoneNumber=0987654321)
+2021-05-25T12:49:21,319 TRACE [Test worker]: ClientController                     - start get clients 
+2021-05-25T12:49:21,321 TRACE [Test worker]: ClientController                     - end get clients=[ClientDto(super=BaseDto(id=1), name=Ana, email=ana@gmail.com, phoneNumber=0987654321), ClientDto(super=BaseDto(id=2), name=Iona, email=iana@gmail.com, phoneNumber=0987654321)] 
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -14,9 +14,8 @@ node_modules
 *.ipr
 *.iws
 .idea
-build
 out
-generated
+generatedW
 MANIFEST.MF
 
 

@@ -1,0 +1,6 @@
+ro/ubb/catalog/web/controller/StudentControllerTest.java
+ ro.ubb.catalog.web.controller.StudentControllerTest
+ro/ubb/catalog/web/controller/DisciplineControllerTest.java
+ ro.ubb.catalog.web.controller.DisciplineControllerTest
+project/web/controller/ClientControllerTest.java
+ project.web.controller.ClientControllerTest

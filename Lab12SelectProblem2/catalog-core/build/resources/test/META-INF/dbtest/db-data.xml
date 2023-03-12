@@ -1,0 +1,7 @@
+<dataset>
+    <client id="1" email="ana@gmail.com" name="Ana" phonenumber="0987654321"  />
+    <client id="2" email="ioa@gmail.com" name="Ioana" phonenumber="0123456789"  />
+    <location id="1" city="Cluj-Napoca" country="Romania" number="31" street="Str.Flower" zipcode="32123" entrancefee="105" owner="Own" timeLimit="50"/>
+    <photoshoot id="1" nomaxclients="20" date="2021-05-16" price="75" location_id="1"/>
+    <client_photoshoots client_id="1" photoshoot_id="1"/>
+</dataset>

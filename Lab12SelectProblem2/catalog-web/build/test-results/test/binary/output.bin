@@ -1,0 +1,4 @@
+À2021-05-25T12:49:21,095 TRACE [Test worker]: ClientController                     - start update client=ClientDto(super=BaseDto(id=1), name=Ana, email=ana@gmail.com, phoneNumber=0987654321) 
+WClientDto(super=BaseDto(id=1), name=Ana, email=ana@gmail.com, phoneNumber=0987654321)
+h2021-05-25T12:49:21,319 TRACE [Test worker]: ClientController                     - start get clients 
+—2021-05-25T12:49:21,321 TRACE [Test worker]: ClientController                     - end get clients=[ClientDto(super=BaseDto(id=1), name=Ana, email=ana@gmail.com, phoneNumber=0987654321), ClientDto(super=BaseDto(id=2), name=Iona, email=iana@gmail.com, phoneNumber=0987654321)] 

@@ -1,0 +1,8 @@
+project/core/JPAConfigIT.java
+ project.core.JPAConfigIT
+project/core/ITConfig.java
+ project.core.ITConfig
+project/core/service/ClientServiceTest.java
+ project.core.service.ClientServiceTest
+project/core/repository/ClientRepositoryTest.java
+ project.core.repository.ClientRepositoryTest
