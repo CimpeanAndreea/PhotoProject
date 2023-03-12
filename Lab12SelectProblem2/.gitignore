@@ -1,5 +1,3 @@
-target
-classes
 bin
 *.log
 dist
@@ -21,10 +19,4 @@ out
 generated
 MANIFEST.MF
 
-#gradle
-gradle
-.gradle
-
-#angular
-node_modules
 
