@@ -2,13 +2,36 @@ allprojects {
     group 'ro.ubb.catalog'
     version '1.0-SNAPSHOT'
 
+    buildscript {
+        repositories {
+            mavenCentral()
+            maven { url "https://plugins.gradle.org/m2/" }
+        }
+        dependencies {
+            classpath 'org.sonarsource.scanner.gradle:sonarqube-gradle-plugin:2.5'
+        }
+    }
+
     apply plugin: 'java'
+
+    //apply plugin: "org.sonarqube.gradle"
+
+    /*sonarqube {
+        properties {
+            property "sonar.projectKey", "CimpeanAndreea_PhotoProject"
+            property "sonar.organization", "cimpeanandreea"
+            property "sonar.host.url", "https://sonarcloud.io"
+        }
+    }*/
+
+
 
     sourceCompatibility = 1.8
 
     repositories {
         mavenCentral()
     }
+
 
 
 
@@ -53,6 +76,9 @@ allprojects {
             exclude group:'org.hamcrest', module:'hamcrest-core'
         }
         testCompile group: 'org.springframework', name: 'spring-test', version: "$springVersion"
+
+        // https://mvnrepository.com/artifact/org.sonarqube.gradle/gradle-sonarqube-plugin
+        //implementation group: 'org.sonarqube.gradle', name: 'gradle-sonarqube-plugin', version: '1.1'
 
 
     }
